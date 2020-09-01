@@ -16,6 +16,7 @@ io.on('connection', socket => { //when user joins website
     })
 
     socket.on('disconnect', () => { //when user disconnects send that name data to client side and delete user from array
+        console.log(`${users[socket.id]} disconnected`);
         socket.broadcast.emit('user-disconnected', users[socket.id]);
         delete users[socket.id];
     })
