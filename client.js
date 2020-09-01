@@ -1,5 +1,5 @@
 //script.js is referring to the actual webpage
-const socket = io('https://v1chat.herokuapp.com/'); //this is where the server is hosted on
+const socket = io('http://localhost:3000'); //this is where the server is hosted on
 const messageContainer = document.getElementById('message-container');
 const messageForm = document.getElementById('send-container');
 const messageInput = document.getElementById('message-input');
