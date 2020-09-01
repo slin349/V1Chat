@@ -1,0 +1,25 @@
+{
+  "name": "v1chat",
+  "version": "1.0.0",
+  "description": "Real Time Chat App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slin349/V1Chat.git"
+  },
+  "author": "Steven Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slin349/V1Chat/issues"
+  },
+  "homepage": "https://github.com/slin349/V1Chat#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
